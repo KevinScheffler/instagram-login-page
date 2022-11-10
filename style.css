@@ -1,0 +1,10 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  margin: 40% auto 50% auto;
+}
