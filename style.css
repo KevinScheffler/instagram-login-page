@@ -6,5 +6,164 @@ body {
   width: 350px;
   height: 400px;
   background-color: white;
-  margin: 40% auto 50% auto;
+  margin: auto;
+  margin-top: 275px;
+  border: solid lightgrey;
+  border-width: thin;
+  margin-bottom: 10px;
 }
+
+.top-container img {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.top-container input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  height: 30px;
+  background: #f1f1f1;
+  border: solid lightgrey;
+  border-width: thin;
+  border-radius: 3px;
+}
+
+.email-input {
+  margin-bottom: 5px;
+}
+
+.login-btn button {
+  width: 68%;
+  height: 28px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  background-color: #0095f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.hr-group {
+  display: flex;
+  align-items: center;
+}
+
+.hr-1, .hr-2 {
+  width: 25%;
+  border: solid lightgrey;
+  border-width: thin;
+}
+
+.hr-1 {
+  margin-left: 65px;
+  padding-right: -25px;
+}
+
+.hr-2 {
+  margin-right: 65px;
+  padding-left: -25px;
+}
+
+.hr-para {
+  font-size: 13px;
+  color: grey;
+  font-weight: bold;
+}
+
+.fb-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+
+.fb-logo img {
+  width: 18px;
+  height: 18px;
+  padding-left: 60px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.fb-logo p {
+  padding-right: 100px;
+  padding-top: 6px;
+  font-size: 14px;
+  color: #385185;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ a {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  font-size: 13px;
+  color: #00376b;
+}
+
+.bottom-container {
+  width: 350px;
+  height: 60px;
+  background-color: white;
+  margin: auto;
+  border: solid lightgrey;
+  border-width: thin;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-section p {
+  font-size: 14px;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+.bottom-section a {
+  padding-right: 100px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #0095f6;
+  font-weight: bold;
+}
+
+.app {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.app-store, .play-store {
+  width: 130px;
+  cursor: pointer;
+}
+
+.app-store {
+  padding-right: 8px;
+}
+
+
+
